@@ -1,17 +1,14 @@
 {
-  "compilerOptions": {
-    "target": "ES2022",
-    "module": "ES2022",
-    "moduleResolution": "Bundler",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-
-    // Optional niceties:
-    "lib": ["ES2022"],
-    "resolveJsonModule": true,
-    "verbatimModuleSyntax": true,
-    "types": ["node"] // add ["vitest/globals"] if you use global tests
-  },
-  "include": ["src", "tests"]
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
 }
