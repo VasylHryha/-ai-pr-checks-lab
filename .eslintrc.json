@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "parserOptions": { "project": false },
+  "extends": ["standard-with-typescript"],
+  "overrides": [
+    {
+      "files": ["**/*.ts"],
+      "parserOptions": { "project": null }
+    }
+  ]
+}
