@@ -1,11 +1,14 @@
 {
   "root": true,
-  "parserOptions": { "project": false },
-  "extends": ["standard-with-typescript"],
-  "overrides": [
-    {
-      "files": ["**/*.ts"],
-      "parserOptions": { "project": null }
-    }
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.eslint.json",
+    "tsconfigRootDir": "."
+  },
+  "extends": [
+    "standard-with-typescript"
+  ],
+  "ignorePatterns": [
+    "dist/**"
   ]
 }
