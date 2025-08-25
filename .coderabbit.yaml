@@ -1,0 +1,9 @@
+reviews:
+  changed_files_summary: true
+  path_filters:
+    - "src/**"
+    - "!dist/**"
+    - "!docs/**"
+  auto_review:
+    enabled: true
+    auto_incremental_review: true
